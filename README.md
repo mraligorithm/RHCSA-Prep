@@ -1,10 +1,10 @@
 # RHCSA-Prep
 ## In this Repo I will collect the resources I have found usefull for the exam prep
 
-##RHCSA Obectives
+## RHCSA Obectives
 
-###RHCSA exam candidates should be able to accomplish the tasks below without assistance. These have been grouped into several categories.
-###Understand and use essential tools
+### RHCSA exam candidates should be able to accomplish the tasks below without assistance. These have been grouped into several categories.
+### Understand and use essential tools
 
         Access a shell prompt and issue commands with correct syntax
         Use input-output redirection (>, >>, |, 2>, etc.)
@@ -18,7 +18,7 @@
         List, set, and change standard ugo/rwx permissions
         Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 
-###Operate running systems
+### Operate running systems
 
         Boot, reboot, and shut down a system normally
         Boot systems into different targets manually
@@ -30,14 +30,14 @@
         Start, stop, and check the status of network services
         Securely transfer files between systems
 
-###Configure local storage
+### Configure local storage
 
         List, create, delete partitions on MBR and GPT disks
         Create and remove physical volumes, assign physical volumes to volume groups, and create and delete logical volumes
         Configure systems to mount file systems at boot by Universally Unique ID (UUID) or label
         Add new partitions and logical volumes, and swap to a system non-destructively
 
-###Create and configure file systems
+### Create and configure file systems
 
         Create, mount, unmount, and use vfat, ext4, and xfs file systems
         Mount and unmount CIFS and NFS network file systems
@@ -60,14 +60,14 @@
         Update the kernel package appropriately to ensure a bootable system
         Modify the system bootloader
 
-###Manage users and groups
+### Manage users and groups
 
         Create, delete, and modify local user accounts
         Change passwords and adjust password aging for local user accounts
         Create, delete, and modify local groups and group memberships
         Configure a system to use an existing authentication service for user and group information
 
-###Manage security
+### Manage security
 
         Configure firewall settings using firewall-config, firewall-cmd, or iptables
         Configure key-based authentication for SSH
