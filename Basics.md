@@ -220,5 +220,32 @@ system
 	`poweroff`
 	`shutdown -P`
 - - - -
+# Install and Update Software Packages
+* `yum` * Package management tool
+	»» install packagename * Install package
+	»» search string * Search packages
+	»» search all string * Searches name, description and summary
+	»» list * List installed packages
+	»» list all * Listed installed and available packages
+	»» list installed * List installed and available packages
+	»» check-update * Lists packages with available updates
+	»» update packagename * Update defined package
+	»» update * Update all packages with available updates
+	»» info package * Provide information about package
+	»» provides _some_directory * Displays packages that match path
+	»» list kernel * List installed and available kernels
+	»» remove packagename * Removes defined package
+	»» history * Display summary of installations and removes
+	»» history undo idnumber * Reverse a transaction
+	»» Working with groups (packages of software):
+— `yum grouplist` * Show available groups to install
+— `grouplist hidden` * Show all available groups
+— `groupinstall groupname` * Install defined group
+— `groupinfo groupname` * Display all packages to be installed with the group
+	 - * Package is not installed and will not be installed
+	 = * Package is installed as part of group
+	 + * Package is not installed, but will be installed at next update
+	 No symbol means that the package is installed, but was not installed as part of the group
+»» `/var/log/yum` * Log file
 
 #linux/commands
